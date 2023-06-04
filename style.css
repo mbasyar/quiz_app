@@ -5,7 +5,8 @@
 } */
 
 body {
-  background-image: linear-gradient(black,wheat, wheat,black);
+  background-image: url(./cover.jpg);
+  background-size: cover;
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
