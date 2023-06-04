@@ -105,7 +105,7 @@ submitBtn.addEventListener("click", () => {
       quiz.innerHTML = `
       <h2 style="text-align: center;">HASIL TEST : ${score}/${quizData.length}</h2>
       <h1 style="text-align: center;">Selamat Anda mendapatkan hadiah Xiaomi Note 11 Pro</h1>
-      <audio controls>
+      <audio controls style="display: block; margin: 0 auto; padding:50px;">
         <source src="./tapi boong.mp3" type="audio/mpeg">
         <p>Browser Anda tidak mendukung elemen audio.</p>
       </audio>
