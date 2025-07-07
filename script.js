@@ -1,18 +1,18 @@
 const quizData = [
   {
-    question: "1. Siapakah presiden Indonesia yang menjabat pada periode 2004-2014?",
-    a: "A. Susilo Bambang Yudhoyono",
-    b: "B. Joko Widodo",
-    c: "C. Megawati Soekarnoputri",
-    d: "D. Abdurrahman Wahid",
-    correct: "a",
+    question: "1. Negara, negara apa yg gak akan hilang?",
+    a: "A. Singapura",
+    b: "B. Indonesia",
+    c: "C. Kanada",
+    d: "D. Irlandia",
+    correct: "c",
   },
   {
-    question: "2. Apa nama ibu kota provinsi terkecil di Indonesia?",
+    question: "2. Es, Es apa yg sholeh",
     a: "A. Ambon",
     b: "B. Pontianak",
     c: "C. Manado",
-    d: "D. Denpasar",
+    d: "D. Es Nutri Syar'i ",
     correct: "d",
   },
 
@@ -33,11 +33,11 @@ const quizData = [
     correct: "d",
   },
   {
-    question: "5. Siapa penulis novel Laskar Pelangi?",
-    a: "A. Tere Liye",
-    b: "B. Andrea Hirata",
-    c: "C. Dewi Lestari",
-    d: "D. Dee Lestari",
+    question: "5. Buah-buah apa yg selalu ketawa?",
+    a: "A. Buahasa thailand",
+    b: "B. Buah dipohon",
+    c: "C. Buah hati",
+    d: "D. Buahahaaaa",
     correct: "b",
   },
 ];
