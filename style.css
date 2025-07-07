@@ -5,7 +5,8 @@
 } */
 
 body {
-  background-image: url(./itachi.jpg);
+  color: aliceblue;
+  background-image: url(./images.jpeg);
   background-size: cover;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -18,11 +19,12 @@ body {
 
 .quiz-container {
   margin-right: 20px;
-  background-color: #fff  ;
+  background-image: url(./4.jpg) ;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
   overflow: hidden;
+  color: #fff;
 
 }
 
@@ -52,7 +54,7 @@ ul li label {
 }
 
 button {
-  background-color: tomato;
+  /* background-color: tomato; */
   color: #fff;
   border: none;
   display: block;
@@ -66,12 +68,12 @@ button {
 }
 
 button:hover {
-  background-color: #f00;
+  background-color: rgb(17, 1, 170);
 }
 
 button:focus {
   outline: none;
-  background-color: red;
+  background-color: rgb(17, 1, 170)
 }
 .hadiah {
   color: white;

@@ -9,35 +9,35 @@ const quizData = [
   },
   {
     question: "2. Es, Es apa yg sholeh",
-    a: "A. Ambon",
-    b: "B. Pontianak",
-    c: "C. Manado",
+    a: "A. Es Doger",
+    b: "B. Marimas Kurma",
+    c: "C. Es Teh Solo",
     d: "D. Es Nutri Syar'i ",
     correct: "d",
   },
 
   {
-    question: "3. Apa nama jembatan yang menghubungkan Pulau Jawa dan Sumatera?",
-    a: "A. Jembatan Bangka",
-    b: "B. Jembatan Suramadu",
-    c: "C. Jembatan Ampera",
-    d: "D. Jembatan Selat Sunda",
-    correct: "d",
+    question: "3. ada bebek 5, dikali 2, berapa  total semua bebek?",
+    a: "A. 5",
+    b: "B. 15",
+    c: "C. 10",
+    d: "D. 7",
+    correct: "a",
   },
   {
-    question: "4. Apa nama festival budaya yang diadakan di Yogyakarta setiap tahunnya?",
-    a: "A. Festival Danau Toba",
-    b: "B. Festival Lombok",
-    c: "C. Festival Solo",
-    d: "D. Festival Malioboro",
+    question: "4. Jika AdA 10 Pejuang Indonesia yg berperang lalu ada satu yg gugur. ada berpa orang yg akan kembali ke makas",
+    a: "A. 9 Orang",
+    b: "B. 100 orang",
+    c: "C. 109 orang",
+    d: "D. 1009 ORANG",
     correct: "d",
   },
   {
     question: "5. Buah-buah apa yg selalu ketawa?",
     a: "A. Buahasa thailand",
-    b: "B. Buah dipohon",
-    c: "C. Buah hati",
-    d: "D. Buahahaaaa",
+    b: "B. Buah Dadaa janda",
+    c: "C. Buah hati2 dijalan",
+    d: "D. Buahahaaaaa",
     correct: "b",
   },
 ];
@@ -103,8 +103,9 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
     } else {
       quiz.innerHTML = `
-      <h2 style="text-align: center;">HASIL TEST : ${score}/${quizData.length}</h2>
-      <h1 style="text-align: center;">Selamat Anda mendapatkan hadiah Xiaomi Note 11 Pro</h1>
+      <h2 style="text-align: center;">HASIL TEST : <br> 
+       Jawaban Benar ${score}/${quizData.length}</h2>
+      <h1 style="text-align: center; color: red">Selamat Anda Mendapatkan Hadiah Xiaomi Note 11 Pro</h1>
       <audio controls style="display: block; margin: 0 auto; padding:50px;">
         <source src="./tapi boong.mp3" type="audio/mpeg">
         <p>Browser Anda tidak mendukung elemen audio.</p>
